@@ -1,0 +1,42 @@
+Ah, I see what’s happening here — you’ve modified something inside a submodule (my-java-folder), but you haven’t staged those changes yet.
+
+Here’s how to fix it step-by-step:
+
+1️⃣ Stage the changes
+Run:
+
+bash
+Copy code
+git add .
+or if you only want to add the submodule change:
+
+bash
+Copy code
+git add my-java-folder
+2️⃣ Commit the changes
+bash
+Copy code
+git commit -m "using collection framework"
+3️⃣ Push to GitHub
+bash
+Copy code
+git push origin main
+⚠ Important about submodules
+If my-java-folder is a Git submodule, this means it’s a separate Git repo inside your repo.
+
+You must cd my-java-folder, commit & push changes there first.
+
+Then come back to the main repo and commit the updated submodule pointer.
+
+Example:
+
+bash
+Copy code
+cd my-java-folder
+git add .
+git commit -m "updated files in submodule"
+git push origin main
+cd ..
+git add my-java-folder
+git commit -m "updated submodule reference"
+git push origin main
