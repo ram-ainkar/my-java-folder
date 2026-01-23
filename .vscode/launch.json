@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleNQueens",
+            "request": "launch",
+            "mainClass": "SimpleNQueens",
+            "projectName": "my-java-folder_1fe641b1"
+        },
+        {
+            "type": "java",
+            "name": "HuffmanEncoding",
+            "request": "launch",
+            "mainClass": "HuffmanEncoding",
+            "projectName": "my-java-folder_1fe641b1"
+        },
+        {
+            "type": "java",
             "name": "Queue",
             "request": "launch",
             "mainClass": "Queue",
