@@ -1,2 +1,2 @@
  2026 
-Data Structure journey!
+Data Structure Algorithm
