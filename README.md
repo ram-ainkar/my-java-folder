@@ -5,6 +5,9 @@
 -sorting
 -linklist
 -binary search tree
+-recoursion 
+- stack
+- 
 
 
 
